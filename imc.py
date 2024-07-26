@@ -34,5 +34,13 @@ print(f"Tu índice de masa corporal es: {imc} kg/m2")
 #condiciones
 if imc < 18.5:
     print("La clasificación OMS es: Bajo peso")
-
-#Output
+elif imc >= 18.5 and imc <= 25:
+    print("La clasificación OMS es: Adecuado")
+elif imc >= 25 and imc <= 30:
+    print("La clasificación OMS es: Sobrepeso")
+elif imc >= 30 and imc <=35:
+    print("La clasificación OMS es: Obesidad grado I")
+elif imc >= 35 and imc <= 40:
+    print("La clasificación OMS es: Obesidad grado II")
+elif imc > 40:
+    print("La clasificación OMS es: Obesidad grado III")
