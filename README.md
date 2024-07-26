@@ -60,8 +60,8 @@ python imc.py
 
 ## Autor
 
-[Karen Limari](github.com/KarenLimari)
-[Ambar Zambrano](github.com/ambrazv)
+[Karen Limari](https://github.com/KarenLimari)
+[Ambar Zambrano](https://github.com/ambrazv)
 
 ## Licencia
 
