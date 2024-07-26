@@ -20,3 +20,19 @@
 
 #Paso 1 
 #Determinar variables
+import math
+peso = int(input("Ingresa tu peso en kg: "))
+altura = float(input("Ingresa tu altura en metros: "))
+
+#Paso 2 
+#Determinar las variables para la fórmula de imc
+imc = peso / altura **2
+imc = math.ceil(imc)
+print(f"Tu índice de masa corporal es: {imc} kg/m2")
+
+#Paso 3
+#condiciones
+if imc < 18.5:
+    print("La clasificación OMS es: Bajo peso")
+
+#Output
