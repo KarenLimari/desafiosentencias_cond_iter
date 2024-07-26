@@ -29,61 +29,39 @@ Actividad 2 - Cachipún
    mostrar las opciones que se pueden jugar.
    (2 Puntos)
 
-## Diagramas de flujo
-
-Diagrama de flujo Ejercicio IMC
-
-```mermaid
-graph TD
-    A[Inicio] --> B[Solicitar peso y altura]
-    B --> C[Calcular IMC]
-    C --> D[IMC < 18.5]
-    D -->|Sí| E[La clasificación OMS es: Bajo peso]
-    D -->|No| F[IMC >= 18.5 y <= 25]
-    F -->|Sí| G[La clasificación OMS es: Adecuado]
-    F -->|No| H[IMC >= 25 y <= 30]
-    H -->|Sí| I[La clasificación OMS es: Sobrepeso]
-    H -->|No| J[IMC >= 30 y <= 35]
-    J -->|Sí| K[La clasificación OMS es: Obesidad grado I]
-    J -->|No| L[IMC >= 35 y <= 40]
-    L -->|Sí| M[La clasificación OMS es: Obesidad grado II]
-    L -->|No| N[IMC > 40]
-    N -->|Sí| O[La clasificación OMS es: Obesidad grado III]
-    O --> P[Fin]
-```
-
-Diagrama de flujo Ejercicio Cachipun
-
-´´´mermaid
-´´´
-
 ## Prerrequisitos o Dependencias
 
 Lista de software y herramientas, incluyendo versiones, que necesitas para instalar y ejecutar este proyecto:
 
 - Sistema Operativo Window, Linux, MacOS
-- Lenguaje de programación python
+- Lenguaje de programación python 3.12
 
 ## Instalación del Proyecto
 
-Una guía paso a paso sobre cómo configurar el entorno de desarrollo e instalar todas las dependencias.
+Clona el repositorio
 
 ```bash
-# git clone git@github.com:KarenLimari/desafiosentencias_cond_iter.git
+git clone git@github.com:KarenLimari/desafiosentencias_cond_iter.git
+```
+
+Ingresa a la carpeta del proyecto
+
+```bash
+cd desafiosentencias_cond_iter
 ```
 
 ## Instrucciones para Ejecutar el Proyecto
 
-Instrucciones para ejecutar el proyecto una vez instalado.
+Ejecutar el siguiente comando
 
 ```bash
-#
+python imc.py
 ```
 
 ## Autor
 
--Karen Limari [Karen Limari](github.com/KarenLimari)
--Ambar Zambrano [Ambar Zambrano](github.com/ambarzambranor)
+[Karen Limari](github.com/KarenLimari)
+[Ambar Zambrano](github.com/ambarzambranor)
 
 ## Licencia
 
