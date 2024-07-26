@@ -22,12 +22,12 @@
 #Determinar variables
 import math
 peso = int(input("Ingresa tu peso en kg: "))
-altura = float(input("Ingresa tu altura en metros: "))
-
+altura_cm = float(input("Ingresa tu altura en centímetros: "))
+altura_metro = altura_cm / 100
 #Paso 2 
 #Determinar las variables para la fórmula de imc
-imc = peso / altura **2
-imc = math.ceil(imc)
+imc = peso / altura_metro **2
+imc = round(imc, 2)
 print(f"Tu índice de masa corporal es: {imc} kg/m2")
 
 #Paso 3
