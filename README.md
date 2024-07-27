@@ -29,28 +29,28 @@ Actividad 2 - Cachipún
    mostrar las opciones que se pueden jugar.
    (2 Puntos)
 
-# Inicio cachipun es un juego
+## Inicio cachipun es un juego
 
 import random
 
-# Lista de opciones disponibles
+## Lista de opciones disponibles
 
 cachipun = ["tijera", "papel", "piedra"]
 
-# Selección aleatoria de la opción de la computadora
+## Selección aleatoria de la opción de la computadora
 
 computador = random.choice(cachipun)
 
-# Solicitar la jugada del usuario
+## Solicitar la jugada del usuario
 
 usuario = input("Ingresa tu jugada: ")
 
-# Mostrar las jugadas realizadas
+## Mostrar las jugadas realizadas
 
 print(f"Tu jugaste {usuario}")
 print(f"Computador jugó {computador}")
 
-# Validación y determinación del resultado
+## Validación y determinación del resultado
 
 if usuario not in cachipun:
 print("Argumento inválido: Debe ser piedra, papel o tijera.")
@@ -62,10 +62,7 @@ elif (usuario == "piedra" and computador == "tijera") or \
 print("¡Tú ganaste!")
 else:
 print("¡Perdiste!")
-
-#fin
-
-# desafio.juego
+FIN
 
 ## Prerrequisitos o Dependencias
 
